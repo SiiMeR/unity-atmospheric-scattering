@@ -1,2 +1,2 @@
 # unity-atmospheric-scattering
-A project where I try to implement realistic atmospheric scattering. Based on different resources on the internet. :D
+An implementation of atmospheric scattering. It will be based on the new HD rendering pipeline in Unity 2018, so it will probably will not be backwards compatible with earlier versions.
