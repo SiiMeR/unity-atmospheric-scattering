@@ -3,7 +3,7 @@
 --- !u!181963792 &2655988077585873504
 Preset:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: DirectionalLight_Default
   m_TargetType:
@@ -37,7 +37,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Intensity
-    value: 10
+    value: 3.1415927
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Range
@@ -102,6 +102,10 @@ Preset:
   - target: {fileID: 0}
     propertyPath: m_Lightmapping
     value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_LightShadowCasterMode
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_AreaSize.x
