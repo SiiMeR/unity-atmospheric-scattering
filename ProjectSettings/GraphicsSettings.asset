@@ -113,7 +113,7 @@ GraphicsSettings:
       enableLPPV: 0
       useDitherMaskForAlphaBlendedShadows: 0
     m_Automatic: 1
-  m_LightmapStripping: 0
+  m_LightmapStripping: 1
   m_FogStripping: 0
   m_InstancingStripping: 0
   m_LightmapKeepPlain: 1

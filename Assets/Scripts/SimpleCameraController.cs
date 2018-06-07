@@ -53,7 +53,11 @@ namespace UnityTemplateProjects
         CameraState m_TargetCameraState = new CameraState();
         CameraState m_InterpolatingCameraState = new CameraState();
 
-        [Header("Movement Settings")]
+        [Header("Movement Settings")] 
+        
+        [Tooltip("Movement speed coefficent")]
+        public float moveSpeedCoef = 1.0f;
+        
         [Tooltip("Exponential boost factor on translation, controllable by mouse wheel.")]
         public float boost = 3.5f;
 
@@ -103,6 +107,8 @@ namespace UnityTemplateProjects
             {
                 direction += Vector3.up;
             }
+
+            direction *= moveSpeedCoef;
             return direction;
         }
         

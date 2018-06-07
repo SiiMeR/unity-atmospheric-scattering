@@ -460,7 +460,7 @@ Material:
     - _ShowLayer2: 0
     - _ShowLayer3: 0
     - _ShowMaterialReferences: 0
-    - _Smoothness: 1
+    - _Smoothness: 0
     - _Smoothness0: 1
     - _Smoothness1: 1
     - _Smoothness2: 1
